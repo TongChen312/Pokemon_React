@@ -1,5 +1,108 @@
-.Header{
-  #logo{
-    
+.Header {
+  position: fixed;
+  top: 0;
+
+  ul {
+    display: flex;
+    align-items: center;
+
+    li {
+      flex: 1;
+      height: 50px;
+      line-height: 50px;
+      font-size: 20px;
+      font-weight: bolder;
+      letter-spacing: 8px;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+
+  [data-mark=cartoon] {
+    color: #03a9f4;
+    transition: all 0.5s linear;
+    border-bottom: 4px solid #03a9f4;
+  }
+
+  [data-mark=cartoon]:hover {
+    color: white !important;
+    background: #03a9f4;
+  }
+
+  [data-mark=movie] {
+    color: #ff9600;
+    transition: all 0.5s linear;
+    border-bottom: 4px solid #ff9600;
+  }
+
+  [data-mark=movie]:hover {
+    color: white !important;
+    background: #ff9600;
+  }
+
+  [data-mark=commodity] {
+    color: #4caf50;
+    transition: all 0.5s linear;
+    border-bottom: 4px solid #4caf50;
+  }
+
+  [data-mark=commodity]:hover {
+    color: white !important;
+    background: #4caf50;
+  }
+
+  [data-mark=application] {
+    color: #9c27b0;
+    transition: all 0.5s linear;
+    border-bottom: 4px solid #9c27b0;
+  }
+
+  [data-mark=application]:hover {
+    color: white !important;
+    background: #9c27b0;
+  }
+
+  [data-mark=game] {
+    color: #f44336;
+    transition: all 0.5s linear;
+    border-bottom: 4px solid #f44336;
+  }
+
+  [data-mark=game]:hover {
+    color: white !important;
+    background: #f44336;
+  }
+
+  [data-mark=card] {
+    color: #3f51b5;
+    transition: all 0.5s linear;
+    border-bottom: 4px solid #3f51b5;
+  }
+
+  [data-mark=card]:hover {
+    color: white !important;
+    background: #3f51b5;
+  }
+
+  [data-mark=active] {
+    color: #795548;
+    transition: all 0.5s linear;
+    border-bottom: 4px solid #795548;
+  }
+
+  [data-mark=active]:hover {
+    color: white !important;
+    background: #795548;
+  }
+
+  [data-mark=handbook] {
+    color: #000;
+    transition: all 0.5s linear;
+    border-bottom: 4px solid #000;
+  }
+
+  [data-mark=handbook]:hover {
+    color: white !important;
+    background: #000;
   }
 }

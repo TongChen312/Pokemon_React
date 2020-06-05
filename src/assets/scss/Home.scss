@@ -1,0 +1,623 @@
+.Home {
+  .ant-table-cell {
+    padding: 4px;
+  }
+
+  .pokemon-i {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: url(~@/assets/img/icon/icon_180103.png)
+  }
+
+  .pokemon-character-block {
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+  }
+
+  /*精灵图定位*/
+  [data-pid="1"] {
+    background-position: 120px 40px;
+  }
+
+  [data-pid="2"] {
+    background-position: 160px 40px;
+  }
+
+  [data-pid="3"] {
+    background-position: 200px 40px;
+  }
+
+  [data-pid="4"] {
+    background-position: 280px 40px;
+  }
+
+  [data-pid="5"] {
+    background-position: 320px 40px;
+  }
+
+  [data-pid="6"] {
+    background-position: 360px 40px;
+  }
+
+  [data-pid="7"] {
+    background-position: 480px 40px;
+  }
+
+  [data-pid="8"] {
+    background-position: 520px 40px;
+  }
+
+  [data-pid="9"] {
+    background-position: 560px 40px;
+  }
+
+  [data-pid="10"] {
+    background-position: 640px 40px;
+  }
+
+  [data-pid="11"] {
+    background-position: 680px 40px;
+  }
+
+  [data-pid="12"] {
+    background-position: 720px 40px;
+  }
+
+  [data-pid="13"] {
+    background-position: 760px 40px;
+  }
+
+  [data-pid="14"] {
+    background-position: 800px 40px;
+  }
+
+  [data-pid="15"] {
+    background-position: 840px 40px;
+  }
+
+  [data-pid="16"] {
+    background-position: 920px 40px;
+  }
+
+  [data-pid="17"] {
+    background-position: 960px 40px;
+  }
+
+  [data-pid="18"] {
+    background-position: 1000px 40px;
+  }
+
+  [data-pid="19"] {
+    background-position: 1080px 40px;
+  }
+
+  [data-pid="20"] {
+    background-position: 1160px 40px;
+  }
+
+  [data-pid="21"] {
+    background-position: 1240px 40px;
+  }
+
+  [data-pid="22"] {
+    background-position: 1280px 40px;
+  }
+
+  [data-pid="23"] {
+    background-position: 40px 80px;
+  }
+
+  [data-pid="24"] {
+    background-position: 40px 120px;
+  }
+
+  [data-pid="25"] {
+    background-position: 40px 160px;
+  }
+
+  [data-pid="26"] {
+    background-position: 40px 720px;
+  }
+
+  [data-pid="27"] {
+    background-position: 40px 800px;
+  }
+
+  [data-pid="28"] {
+    background-position: 40px 880px;
+  }
+
+  [data-pid="29"] {
+    background-position: 40px 960px;
+  }
+
+  [data-pid="30"] {
+    background-position: 40px 1000px;
+  }
+
+  [data-pid="31"] {
+    background-position: 40px 1040px;
+  }
+
+  [data-pid="32"] {
+    background-position: 40px 1080px;
+  }
+
+  [data-pid="33"] {
+    background-position: 40px 1120px;
+  }
+
+  [data-pid="34"] {
+    background-position: 40px 1160px;
+  }
+
+  [data-pid="35"] {
+    background-position: 40px 1200px;
+  }
+
+  [data-pid="36"] {
+    background-position: 40px 1240px;
+  }
+
+  [data-pid="37"] {
+    background-position: 40px 1280px;
+  }
+
+  [data-pid="38"] {
+    background-position: 120px 80px;
+  }
+
+  [data-pid="39"] {
+    background-position: 200px 80px;
+  }
+
+  [data-pid="40"] {
+    background-position: 240px 80px;
+  }
+
+  [data-pid="41"] {
+    background-position: 280px 80px;
+  }
+
+  [data-pid="42"] {
+    background-position: 320px 80px;
+  }
+
+  [data-pid="43"] {
+    background-position: 360px 80px;
+  }
+
+  [data-pid="44"] {
+    background-position: 400px 80px;
+  }
+
+  [data-pid="45"] {
+    background-position: 440px 80px;
+  }
+
+  [data-pid="46"] {
+    background-position: 480px 80px;
+  }
+
+  [data-pid="47"] {
+    background-position: 520px 80px;
+  }
+
+  [data-pid="48"] {
+    background-position: 560px 80px;
+  }
+
+  [data-pid="49"] {
+    background-position: 600px 80px;
+  }
+
+  [data-pid="50"] {
+    background-position: 640px 80px;
+  }
+
+  [data-pid="51"] {
+    background-position: 720px 80px;
+  }
+
+  [data-pid="52"] {
+    background-position: 800px 80px;
+  }
+
+  [data-pid="53"] {
+    background-position: 880px 80px;
+  }
+
+  [data-pid="54"] {
+    background-position: 960px 80px;
+  }
+
+  [data-pid="55"] {
+    background-position: 1000px 80px;
+  }
+
+  [data-pid="56"] {
+    background-position: 1040px 80px;
+  }
+
+  [data-pid="57"] {
+    background-position: 1080px 80px;
+  }
+
+  [data-pid="58"] {
+    background-position: 1120px 80px;
+  }
+
+  [data-pid="59"] {
+    background-position: 1160px 80px;
+  }
+
+  [data-pid="60"] {
+    background-position: 1200px 80px;
+  }
+
+  [data-pid="61"] {
+    background-position: 1240px 80px;
+  }
+
+  [data-pid="62"] {
+    background-position: 1280px 80px;
+  }
+
+  [data-pid="63"] {
+    background-position: 80px 120px;
+  }
+
+  [data-pid="64"] {
+    background-position: 80px 160px;
+  }
+
+  [data-pid="65"] {
+    background-position: 80px 200px;
+  }
+
+  [data-pid="66"] {
+    background-position: 80px 280px;
+  }
+
+  [data-pid="67"] {
+    background-position: 80px 320px;
+  }
+
+  [data-pid="68"] {
+    background-position: 80px 360px;
+  }
+
+  [data-pid="69"] {
+    background-position: 80px 400px;
+  }
+
+  [data-pid="70"] {
+    background-position: 80px 440px;
+  }
+
+  [data-pid="71"] {
+    background-position: 80px 480px;
+  }
+
+  [data-pid="72"] {
+    background-position: 80px 520px;
+  }
+
+  [data-pid="73"] {
+    background-position: 80px 560px;
+  }
+
+  [data-pid="74"] {
+    background-position: 80px 600px;
+  }
+
+  [data-pid="75"] {
+    background-position: 80px 680px;
+  }
+
+  [data-pid="76"] {
+    background-position: 80px 760px;
+  }
+
+  [data-pid="77"] {
+    background-position: 80px 840px;
+  }
+
+  [data-pid="78"] {
+    background-position: 80px 880px;
+  }
+
+  [data-pid="79"] {
+    background-position: 80px 920px;
+  }
+
+  [data-pid="80"] {
+    background-position: 80px 960px;
+  }
+
+  [data-pid="81"] {
+    background-position: 80px 1040px;
+  }
+
+  [data-pid="82"] {
+    background-position: 80px 1080px;
+  }
+
+  [data-pid="83"] {
+    background-position: 80px 1120px;
+  }
+
+  [data-pid="84"] {
+    background-position: 80px 1160px;
+  }
+
+  [data-pid="85"] {
+    background-position: 80px 1200px;
+  }
+
+  [data-pid="86"] {
+    background-position: 80px 1240px;
+  }
+
+  [data-pid="87"] {
+    background-position: 560px 1240px;
+  }
+
+  [data-pid="88"] {
+    background-position: 120px 120px;
+  }
+
+  [data-pid="89"] {
+    background-position: 200px 120px;
+  }
+
+  [data-pid="90"] {
+    background-position: 280px 120px;
+  }
+
+  [data-pid="91"] {
+    background-position: 320px 120px;
+  }
+
+  [data-pid="92"] {
+    background-position: 360px 120px;
+  }
+
+  [data-pid="93"] {
+    background-position: 400px 120px;
+  }
+
+  [data-pid="94"] {
+    background-position: 440px 120px;
+  }
+
+  [data-pid="95"] {
+    background-position: 520px 120px;
+  }
+
+  [data-pid="96"] {
+    background-position: 560px 120px;
+  }
+
+  [data-pid="97"] {
+    background-position: 600px 120px;
+  }
+
+  [data-pid="98"] {
+    background-position: 640px 120px;
+  }
+
+  [data-pid="99"] {
+    background-position: 680px 120px;
+  }
+
+  [data-pid="100"] {
+    background-position: 720px 120px;
+  }
+
+  [data-pid="101"] {
+    background-position: 760px 120px;
+  }
+
+  [data-pid="102"] {
+    background-position: 800px 120px;
+  }
+
+  [data-pid="103"] {
+    background-position: 840px 120px;
+  }
+
+  [data-pid="104"] {
+    background-position: 920px 120px;
+  }
+
+  [data-pid="105"] {
+    background-position: 960px 120px;
+  }
+
+  [data-pid="106"] {
+    background-position: 1040px 120px;
+  }
+
+  [data-pid="107"] {
+    background-position: 1080px 120px;
+  }
+
+  [data-pid="108"] {
+    background-position: 1120px 120px;
+  }
+
+  [data-pid="109"] {
+    background-position: 1160px 120px;
+  }
+
+  [data-pid="110"] {
+    background-position: 1200px 120px;
+  }
+
+  [data-pid="111"] {
+    background-position: 1240px 120px;
+  }
+
+  [data-pid="112"] {
+    background-position: 1280px 120px;
+  }
+
+  [data-pid="113"] {
+    background-position: 120px 160px;
+  }
+
+  [data-pid="114"] {
+    background-position: 120px 200px;
+  }
+
+  [data-pid="115"] {
+    background-position: 120px 240px;
+  }
+
+  [data-pid="116"] {
+    background-position: 120px 320px;
+  }
+
+  [data-pid="117"] {
+    background-position: 120px 360px;
+  }
+
+  [data-pid="118"] {
+    background-position: 120px 400px;
+  }
+
+  [data-pid="119"] {
+    background-position: 120px 440px;
+  }
+
+  [data-pid="120"] {
+    background-position: 120px 480px;
+  }
+
+  [data-pid="121"] {
+    background-position: 120px 520px;
+  }
+
+  [data-pid="122"] {
+    background-position: 120px 560px;
+  }
+
+  [data-pid="123"] {
+    background-position: 120px 600px;
+  }
+
+  [data-pid="124"] {
+    background-position: 120px 640px;
+  }
+
+  [data-pid="125"] {
+    background-position: 120px 680px;
+  }
+
+  [data-pid="126"] {
+    background-position: 120px 720px;
+  }
+
+  [data-pid="127"] {
+    background-position: 120px 760px;
+  }
+
+  [data-pid="128"] {
+    background-position: 120px 840px;
+  }
+
+  [data-pid="129"] {
+    background-position: 120px 880px;
+  }
+
+  [data-pid="130"] {
+    background-position: 120px 920px;
+  }
+
+  [data-pid="131"] {
+    background-position: 120px 1000px;
+  }
+
+  [data-pid="132"] {
+    background-position: 120px 1040px;
+  }
+
+  [data-pid="133"] {
+    background-position: 120px 1080px;
+  }
+
+  [data-pid="134"] {
+    background-position: 120px 1120px;
+  }
+
+  [data-pid="135"] {
+    background-position: 120px 1160px;
+  }
+
+  [data-pid="136"] {
+    background-position: 120px 1200px;
+  }
+
+  [data-pid="137"] {
+    background-position: 120px 1240px;
+  }
+
+  [data-pid="138"] {
+    background-position: 120px 1280px;
+  }
+
+  [data-pid="139"] {
+    background-position: 160px 160px;
+  }
+
+  [data-pid="140"] {
+    background-position: 200px 160px;
+  }
+
+  [data-pid="141"] {
+    background-position: 240px 160px;
+  }
+
+  [data-pid="142"] {
+    background-position: 280px 160px;
+  }
+
+  [data-pid="143"] {
+    background-position: 360px 160px;
+  }
+
+  [data-pid="144"] {
+    background-position: 400px 160px;
+  }
+
+  [data-pid="145"] {
+    background-position: 440px 160px;
+  }
+
+  [data-pid="146"] {
+    background-position: 480px 160px;
+  }
+
+  [data-pid="147"] {
+    background-position: 520px 160px;
+  }
+
+  [data-pid="148"] {
+    background-position: 560px 160px;
+  }
+
+  [data-pid="149"] {
+    background-position: 600px 160px;
+  }
+
+  [data-pid="150"] {
+    background-position: 640px 160px;
+  }
+
+  [data-pid="151"] {
+    background-position: 760px 160px;
+  }
+}

@@ -127,35 +127,37 @@ body {
   box-sizing: border-box;
 }
 
-.font-16{
+.font-16 {
   font-size: 16px;
 }
 
-.w-1200{
+.w-1200 {
   width: 1200px;
   margin: 0 auto;
 }
 
-[class*="flex-row-"]{
+[class*="flex-row-"] {
   display: flex;
   align-items: center;
 }
 
-.flex-row-center{
+.flex-row-center {
   justify-content: center;
 }
 
-.flex-row-around{
+.flex-row-around {
   justify-content: space-around;
 }
 
-.flex-column{
+.flex-column {
   display: flex;
   flex-direction: column;
 }
 
-
-
+body {
+  padding: 110px 0 0;
+}
 
 @import './assets/scss/Header.scss';
 @import './assets/scss/Footer.scss';
+@import './assets/scss/Home.scss';

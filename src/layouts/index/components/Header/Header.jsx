@@ -1,31 +1,30 @@
 import { useState } from 'react';
-import { Layout, Menu } from 'antd';
+import { Layout, Divider } from 'antd';
 
 const MenuGroup = [
-  { name: '动画', href: '/' },
-  { name: '电影', href: '/' },
-  { name: '商品', href: '/' },
-  { name: '应用', href: '/' },
-  { name: '游戏', href: '/' },
-  { name: '卡牌', href: '/' },
-  { name: '活动', href: '/' },
-  { name: '图鉴', href: '/' },
+  { name: '动画', mark: 'cartoon' },
+  { name: '电影', mark: 'movie' },
+  { name: '商品', mark: 'commodity' },
+  { name: '应用', mark: 'application' },
+  { name: '游戏', mark: 'game' },
+  { name: '卡牌', mark: 'card' },
+  { name: '活动', mark: 'active' },
+  { name: '图鉴', mark: 'handbook' },
 ]
 
 export default function Header() {
-  // const [uname, setUname] = useState('未登录');
+  const [mark, setMark] = useState('cartoon');
 
   return (
     <Layout style={{ position: 'fixed', zIndex: 1, width: '100%' }} className="Header">
-      <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']} breakpoint="lg">
+      <ul>
         {MenuGroup.map((v, i) => {
           return (
-            <Menu.Item key={i}>
-              <a href={v.href}>{v.name}</a>
-            </Menu.Item>
+            <li key={i} onClick={() => { setMark(v.mark) }} data-mark={v.mark}>{v.name}</li>
           )
         })}
-      </Menu>
+      </ul>
+      <Divider>{mark}</Divider>
     </Layout>
   )
 }
