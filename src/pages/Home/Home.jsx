@@ -1,5 +1,6 @@
 import React from 'react';
-import axios from 'axios';
+import Ajax from '@/apiservice/service.js';
+
 
 export default class Home extends React.Component {
 
@@ -9,11 +10,13 @@ export default class Home extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('/pokemon/Plist')
-      .then(function (response) {
-        // handle success
-        console.log(response);
-      })
+    const dataSource = Ajax({
+      url: 'More_Pokemons', data: {
+        pno: 2
+      }
+    }).then((data) => {
+      console.log(data)
+    })
   }
 
   render() {

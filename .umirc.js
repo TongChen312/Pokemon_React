@@ -16,7 +16,7 @@ export default {
       antd: true,
       dva: false,
       dynamicImport: false,
-      title: 'React_Demo',
+      title: 'Pokemon_React',
       dll: false,
 
       routes: {
@@ -33,6 +33,13 @@ export default {
       pathRewrite: {
         '^/pokemon': '/pokemon',
       }
-    }
+    },
+    '/user': {
+      enable: true,
+      target: 'http://127.0.0.1:8080',
+      pathRewrite: {
+        '^/user': '/user',
+      }
+    },
   }
 }

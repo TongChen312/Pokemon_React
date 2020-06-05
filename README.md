@@ -4,7 +4,7 @@ Pokemon
 
 <!-- ![ice-design-pro](https://img.alicdn.com/tfs/TB1_bulmpOWBuNjy0FiXXXFxVXa-1920-1080.png) -->
 
-## 特性
+## 框架
 
 - 前端应用框架: [UmiJS](https://umijs.org/zh-CN)
 - UI 组件库: [Ant Design of React](https://ant.design/docs/react/introduce-cn)
@@ -39,7 +39,16 @@ React_Pokemon
 
 ## 使用
 
-1.  下载XAMPP运行Mysql,进入命令行模式输入 mysql -uroot -p  ->回车键跳过Enter password输入密码 ->输入 source,将脚本文件Pokemon.sql拖入，输入;,回车 ->等待数据库导入 ->在servers文件夹下运行app.js（node app.js） ->服务器运行完成
+1.  服务端:
+
+```bash
+  下载XAMPP运行Mysql,进入命令行模式输入 mysql -uroot -p  
+  回车键跳过'Enter password输入密码'的指令
+  输入source,将脚本文件Pokemon.sql拖入，输入;,回车 
+  等待数据库导入 
+  在servers文件夹下运行app.js（node app.js） 
+  服务器运行完成
+```
 
 2.  Cli 命令使用:
 
