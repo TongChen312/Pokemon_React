@@ -10,13 +10,7 @@ export default class Home extends React.Component {
   }
 
   componentDidMount() {
-    const dataSource = Ajax({
-      url: 'More_Pokemons', data: {
-        pno: 2
-      }
-    }).then((data) => {
-      console.log(data)
-    })
+
   }
 
   render() {

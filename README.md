@@ -25,6 +25,10 @@ Pokemon
 React_Pokemon
 ├── dist        // 打包资源
 ├── mock        // 模拟数据
+├── server      // 服务器
+│   ├── mysql       // 数据库
+│   ├── routes      // 服务器接口
+│   ├── static      // 服务器资源
 ├── src
 │   ├── assets   // 静态资源
 │   ├── layouts      // 通用布局

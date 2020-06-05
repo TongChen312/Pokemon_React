@@ -1,5 +1,5 @@
 import React from 'react';
-// import Header from './components/Header/Header'
+import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 
 class indexLayout extends React.Component {
@@ -12,8 +12,9 @@ class indexLayout extends React.Component {
   render() {
     return (
       <div>
-        <Footer></Footer>
+        <Header />
         {this.props.children}
+        <Footer />
       </div>
     )
   }

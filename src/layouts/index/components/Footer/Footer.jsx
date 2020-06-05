@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Divider, Space } from 'antd'
+import { Row, Col, Divider, Space } from 'antd';
 
 export default function Footer() {
 

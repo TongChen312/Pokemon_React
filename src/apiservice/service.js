@@ -14,8 +14,6 @@ const Ajax = (data) => {
   if (!apiParams) {
     return { errcode: 0, data: {}, message: `无效的接口地址(${data.url})` };
   }
-  // 默认显示错误提示信息
-  apiParams.closetip = true;
 
   const optData = {
     url: apiParams.url,
