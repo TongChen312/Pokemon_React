@@ -16,5 +16,5 @@ module.exports = {
 
   User_Register: { url: '/user/reg' }, //用户注册页面
   User_List: { url: '/user/list', method: 'get' }, //用户列表
-  User_Login: { url: '/login/', method: 'ger' }, //用户登录
+  User_Login: { url: '/user/login', method: 'get' }, //用户登录
 };

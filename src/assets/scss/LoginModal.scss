@@ -1,0 +1,31 @@
+.LoginModal {
+  .ant-tabs-nav-list {
+    flex: 1 !important;
+  }
+
+  .ant-tabs-nav .ant-tabs-tab {
+    flex: 1
+  }
+
+  .iconfont {
+    font-size: 26px;
+    margin: 0 auto;
+  }
+
+  .ant-row {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .ant-row.ant-form-item:last-of-type {
+    margin: 0;
+  }
+
+  form {
+    margin-top: 20px;
+  }
+
+  input {
+    margin-left: 15px;
+  }
+}

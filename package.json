@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "start": "umi dev",
+    "start_servers": "cd servers && node app.js",
     "build": "umi build",
     "test": "umi test",
     "lint": "eslint {src,mock,tests}/**/*.{js,jsx} --fix",
@@ -11,10 +12,12 @@
     "antd": "^4.3.1",
     "axios": "^0.19.2",
     "express": "^4.17.1",
+    "jquery": "^3.5.1",
     "mysql": "^2.18.1",
     "qs": "^6.9.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-draggable": "^4.4.2",
     "sass": "^1.26.7",
     "sass-loader": "^8.0.2"
   },

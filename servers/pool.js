@@ -4,7 +4,7 @@ const pool=mysql.createPool({
 	port:'3306',
 	user:'root',
 	password:'',
-	database:'xz',
+	database:'Pokemon',
 	connectionLimit:20
 });
 module.exports=pool;

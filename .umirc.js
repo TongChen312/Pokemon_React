@@ -10,6 +10,9 @@ export default {
       routes: umircConfig.router.index
     }
   ],
+  theme: {
+    "primary-color": "#fadb14",
+  },
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
     ['umi-plugin-react', {
