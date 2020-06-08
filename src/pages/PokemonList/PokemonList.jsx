@@ -53,15 +53,9 @@ export default class PokemonList extends React.Component {
 
   getPokemonList = async () => {
     const dataSource = await Ajax({
-      url: 'All_Pokemons', data: {
-        t: new Date().getTime().toString()
-      }
+      url: 'All_Pokemons', data: { t: new Date().getTime().toString() }
     });
-    this.setState({ dataSource }, () => {
-      setTimeout(() => {
-        this.setState({ loading: false })
-      }, 1000)
-    })
+    this.setState({ dataSource, loading: false })
   }
 
   render() {
@@ -70,9 +64,12 @@ export default class PokemonList extends React.Component {
     return (
       <div className="PokemonList">
         <Layout>
-          <Spin indicator={<LoadingOutlined style={{ fontSize: 24 }} spin />} spinning={this.state.loading}>
-            <Table columns={columns} dataSource={dataSource} rowKey={(record, index) => index} ></Table>
-          </Spin>
+          <Table
+            columns={columns}
+            dataSource={dataSource}
+            rowKey={(record, index) => record.pid}
+            loading={this.state.loading}
+          ></Table>
         </Layout>
       </div>
     )

@@ -44,5 +44,12 @@ export default {
         '^/user': '/user',
       }
     },
+    '/upload': {
+      enable: true,
+      target: 'http://127.0.0.1:8080',
+      pathRewrite: {
+        '^/upload': '/upload',
+      }
+    },
   }
 }

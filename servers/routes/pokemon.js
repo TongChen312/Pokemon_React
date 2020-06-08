@@ -37,7 +37,7 @@ router.get("/Pquerry/:pid", (req, res) => {
 		if (result.length > 0) {
 			res.send(result);
 		} else {
-			res.send("0");
+			res.send({ code: -1, msg: '查询失败' });
 		}
 	});
 });
@@ -64,7 +64,7 @@ router.post("/myteam", (req, res) => {
 			if (result.affectedRows > 0) {
 				res.send({ code: 1, msg: '修改成功' })
 			} else {
-				res.send({ code: -1, msg: '失败' })
+				res.send({ code: -1, msg: '修改失败' })
 			}
 		})
 	})
@@ -91,9 +91,9 @@ router.get("/Ability/:pid", (req, res) => {
 		if (err) throw err;
 		// console.log(result)
 		if (result.length !== 0) {
-			res.send(result)
+			res.send({ code: 1, result })
 		} else {
-			res.send({ code: -1, msg: '失败' })
+			res.send({ code: -1, msg: '查询信息失败' })
 		}
 	})
 })
@@ -103,7 +103,6 @@ router.get("/prevnext/:pid", (req, res) => {
 	var $pid = req.params.pid;
 	pool.query("select pname from Pokemons where pid in(?,?)", [parseInt($pid) + 1, parseInt($pid) - 1], (err, result) => {
 		if (err) throw err;
-		// console.log(result)
 		if (result.length !== 0) {
 			res.send(result)
 		} else {

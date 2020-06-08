@@ -1,11 +1,13 @@
-const express=require('express');
-const mysql=require('mysql');
-const bodyParser=require('body-parser');
-const user=require('./routes/user.js');
-const pokemon=require('./routes/pokemon.js');
+const express = require('express'),
+	mysql = require('mysql'),
+	bodyParser = require('body-parser'),
+	user = require('./routes/user.js'),
+	pokemon = require('./routes/pokemon.js'),
+	upload = require('./routes/upload.js');
+
 // const cors=require("cors");
 
-var app=express();
+var app = express();
 app.listen(8080);
 
 // app.use(cors({
@@ -16,8 +18,9 @@ app.listen(8080);
 
 app.use(express.static('static'));
 app.use(bodyParser.urlencoded({
-	extended:false
+	extended: false
 }))
 
-app.use('/user',user);
-app.use('/pokemon',pokemon);
+app.use('/user', user);
+app.use('/pokemon', pokemon);
+app.use('/upload', upload);

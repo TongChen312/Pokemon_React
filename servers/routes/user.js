@@ -26,15 +26,15 @@ router.get("/list", (req, res) => {
 });
 
 //登录页面
-router.get("/login/:uname&:upwd", (req, res) => {
-	var $uname = req.params.uname;
-	var $upwd = req.params.upwd;
+router.get("/login", (req, res) => {
+	var $uname = req.query.uname;
+	var $upwd = req.query.upwd;
 	pool.query("select * from xz_user where uname=? and upwd=?", [$uname, $upwd], (err, result) => {
 		if (err) throw err;
 		if (result.length > 0) {
 			res.send({ code: 1, msg: '登录成功' })
 		} else {
-			res.send({ code: 0, msg: '用户名错误或者密码错误' })
+			res.send({ code: -1, msg: '用户名错误或者密码错误' })
 		}
 	});
 });
