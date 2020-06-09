@@ -17,4 +17,7 @@ module.exports = {
   User_Register: { url: '/user/reg' }, //用户注册页面
   User_List: { url: '/user/list', method: 'get' }, //用户列表
   User_Login: { url: '/user/login', method: 'get' }, //用户登录
+
+  Banner_List:{url:'/user/banner/banner_list',method:'get'}, //轮播图列表
+  Banner_Add:{url:'/upload/banner/banner_add'}, //轮播图列表
 };

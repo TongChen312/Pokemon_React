@@ -10,7 +10,8 @@ export default function LoginModal() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-  });
+    Ajax({ url: 'User_List' });
+  },[]);
 
   const userRegister = data => {
     Ajax({ url: 'User_Register', data }).then(res => {

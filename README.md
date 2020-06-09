@@ -11,12 +11,13 @@ Pokemon
 
 ## 技术点
 
-- antdesign
 - react
-- axios
 - react hooks
+- antdesign
 - express
 - mysql
+- axios
+- formidable
 - etc...
 
 ## 目录结构
@@ -46,10 +47,10 @@ React_Pokemon
 1.  服务端:
 
 ```bash
-  下载XAMPP运行Mysql,进入命令行模式输入 mysql -uroot -p  
-  回车键跳过'Enter password输入密码'的指令
-  输入source,将脚本文件Pokemon.sql拖入，输入;,回车 
+  -- mysql -uroot<文件路径
   等待数据库导入 
+  # 下载XAMPP运行Mysql,进入命令行模式输入 mysql -uroot -p  
+  # 回车键跳过'Enter password输入密码'的指令
   在servers文件夹下运行app.js（node app.js） 
   服务器运行完成
 ```

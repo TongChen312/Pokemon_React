@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Divider, Drawer } from 'antd';
 import router from 'umi/router';
 import Draggable from 'react-draggable';
-import LoginModal from '../LoginModal/index'
+import LoginModal from '@/components/LoginModal/index'
 
 const MenuGroup = [
   { name: '动画', mark: 'cartoon', router: '/cartoon' },
